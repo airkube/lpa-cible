@@ -1,0 +1,91 @@
+
+html, body {
+  height: 100%;
+  background-size: cover;
+	background-position:center top;
+    background-image: url(../img/coming.jpg);
+    background-repeat: no-repeat;
+    color: black;
+	font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+    webkit-tap-highlight-color: #222;
+	 /* Add a font */
+    font-family: "Love Ya Like A Sister", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 20px;
+}
+.total {
+  height: 100%;
+  min-height: 100%;
+  
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.time{
+    
+padding-top:4%;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/time_p.png);
+   color: black;
+   font-size: 20px;
+   
+   
+}
+.test{
+background-color: rgba(255,255,255, 0.5);
+}
+.imgwidth {
+   padding-top:10px;
+}
+.lpapad {
+   padding-left:5px;
+}
+.social-icons {
+  
+  margin-bottom: 2rem;
+  width: 100%;
+  z-index: 2;
+}
+
+.social-icons ul {
+  width: 100%;
+}
+
+.social-icons ul > li {
+  margin-top: 1rem;
+  
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: white;
+  background-color: rgba(0, 46, 102, 0.3);
+  border-radius: 100%;
+  font-size: 2rem;
+  line-height: 4rem;
+  height: 4rem;
+  width: 4rem;
+}
+@media (max-width: 768px) {
+	html, body {
+  height: 100%;
+  background-size: cover;
+	background-position:center top;
+    background-image: url(../img/coming.jpg);
+    background-repeat: no-repeat;
+    color: black;
+	font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+    webkit-tap-highlight-color: #222;
+	 /* Add a font */
+    font-family: "Love Ya Like A Sister", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 15px;
+	}
+	
+}
+
+
