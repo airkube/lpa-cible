@@ -22,6 +22,9 @@ hr {
 hr.light {
   border-color: #fff;
 }
+hr.yel {
+  border-color: yellow;
+}
 
 a {
   color: #F05F40;
@@ -38,9 +41,13 @@ a:hover {
   background-color: #1D4851 !important;
 }
 .my-header{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
   background-color: rgba(255,255,255, 0.9);
+}
+.margin-small{
+  margin-left:4%;
+  margin-right: 4%;
 }
 
 .fa-american-sign-language-interpreting{
