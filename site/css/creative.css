@@ -38,7 +38,7 @@ a:hover {
 }
 
 .bg-primary {
-  background-color: #1D4851 !important;
+  background-color: #61828b !important;
 }
 .my-header{
   margin-left: 25%;
@@ -306,7 +306,8 @@ header.masthead p {
 }
 
 .text-primary {
-  color: rgb(32, 25, 80) !important;
+  /*color: rgb(32, 25, 80) !important;*/
+  color: #466a74 !important;
 }
 
 .btn {
@@ -334,3 +335,4 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
