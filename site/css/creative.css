@@ -72,6 +72,19 @@ a:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.green-color{
+  color: #00d684;
+}
+.carousel-caption {
+left: 0px;
+right: 0px;
+background-color: rgba(0,0,0, 0.6);
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 section {
   padding: 3rem 0.25rem;
 }
