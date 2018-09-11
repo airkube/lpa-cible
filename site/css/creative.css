@@ -27,7 +27,7 @@ hr.yel {
 }
 
 a {
-  color: #F05F40;
+  color:black;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -41,8 +41,7 @@ a:hover {
   background-color: #61828b !important;
 }
 .my-header{
-  margin-left: 25%;
-  margin-right: 25%;
+  max-width: 50%;
   background-color: rgba(255,255,255, 0.9);
 }
 .margin-small{
@@ -86,7 +85,7 @@ background-color: rgba(0,0,0, 0.6);
 }
 
 section {
-  padding: 3rem 0.25rem;
+  padding: 1.5rem 0.25rem;
 }
 .row-vcenter{
   padding: 0.3rem 0;
@@ -232,7 +231,11 @@ header.masthead p {
     font-size: 1.15rem;
   }
 }
-
+@media (max-width: 768px) {
+  .my-header{
+    max-width: 90%;
+  }
+}
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
